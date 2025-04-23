@@ -1,9 +1,16 @@
 # 導入方法
+pythonが実行できる環境(anaconda prompt等)で以下を実行
 ```
-python -m venv .venv
-source .venv/bin/activate
 pip install -r requirements.txt
 ```
+
+# テストプレイ時メモ
+- DLはgithubからzipで行なった。授業ではboxでよさそう
+- pythonの環境はanacondaを使用
+- 学生がanacondaを使用したのは2年前なので現在使用可能かどうかは不明
+- 現在のanacondaの環境を壊してしまう可能性も。
+- 今回はPCのできる2人だったためpythonファイルから実行できたが、kachakaに直接繋ぐ方が簡単
+
 
 # 各ファイルの説明
 ### kachaka_api_client.ipynb
