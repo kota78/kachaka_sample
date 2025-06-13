@@ -1,6 +1,7 @@
 # 導入方法
-1. pyenvのインストール　[Windows](https://github.com/pyenv-win/pyenv-win) / [mac](https://github.com/pyenv/pyenv?tab=readme-ov-file#macos)
-4. python 3.10.12(or3.10.11)のインストール
+1. kachaka_sampleディレクトリに移動
+2. pyenvのインストール　[Windows](https://github.com/pyenv-win/pyenv-win) / [mac](https://github.com/pyenv/pyenv?tab=readme-ov-file#macos)
+3. python 3.10.12(or3.10.11)のインストール
 	```
 	pyenv install 3.10.12
 	pyenv local 3.10.12
@@ -20,4 +21,3 @@
 - 2行目：IPアドレスを書き換える
 	- アプリ→設定→アプリ情報→IPアドレスを参照
 - 3行目：client.〇〇を書き換えることで様々な動作が可能
-```
