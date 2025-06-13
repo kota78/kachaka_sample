@@ -1,9 +1,14 @@
 # 導入方法
-```
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-```
+1. pyenvのインストール　[Windows](https://github.com/pyenv-win/pyenv-win) / [mac](https://github.com/pyenv/pyenv?tab=readme-ov-file#macos)
+4. python 3.10.12(or3.10.11)のインストール
+	```
+	pyenv install 3.10.12
+	pyenv local 3.10.12
+	python -m venv .venv
+ 	(windows) .venv\Scripts\activate.bat
+ 	(mac) source .venv/bin/activate
+	pip install -r requirements.txt
+	```
 
 # 各ファイルの説明
 ### kachaka_api_client.ipynb
@@ -15,14 +20,4 @@ pip install -r requirements.txt
 - 2行目：IPアドレスを書き換える
 	- アプリ→設定→アプリ情報→IPアドレスを参照
 - 3行目：client.〇〇を書き換えることで様々な動作が可能
-
-# grpcioがインストールできなかった場合
-→python3.10.12をインストール
-
-以下pyenvを用いたコマンドを記載
-```
-pyenv install 3.10.12
-pyenv global 3.10.12
-python -m venv .venv
-source .venv/bin/activate
 ```
